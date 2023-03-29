@@ -41,23 +41,6 @@ const Banner = () => {
             className='flex max-w-max gap-x-6 items-center mb-12 lg:mx-0'>
               <button className='btn btn-lg'>CONTACT</button>
             </motion.div>
-            <motion.div
-            variants={fadeIn('up',0.7)} 
-            initial="hidden" 
-            whileInView={'show'} 
-            viewport={{once: false, amount: 0.7}}  
-            className="flex text-[20px] gap-x-6 max-w-max mx-auto
-            lg:mx-0">
-              <a href='#'>
-                <FaInstagram/>
-              </a>
-              <a href='#'>
-                <FaGithub/>
-              </a>
-              <a href='#'>
-                <FaTelegram/>
-              </a>
-            </motion.div>
           </div>
           <motion.div
           variants={fadeIn('down',0.5)} 
